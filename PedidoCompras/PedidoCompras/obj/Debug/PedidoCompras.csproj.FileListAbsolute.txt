@@ -1,0 +1,9 @@
+c:\users\leazlaptop\documents\visual studio 2013\Projects\PedidoCompras\PedidoCompras\bin\Debug\PedidoCompras.exe.config
+c:\users\leazlaptop\documents\visual studio 2013\Projects\PedidoCompras\PedidoCompras\bin\Debug\PedidoCompras.exe
+c:\users\leazlaptop\documents\visual studio 2013\Projects\PedidoCompras\PedidoCompras\bin\Debug\PedidoCompras.pdb
+c:\users\leazlaptop\documents\visual studio 2013\Projects\PedidoCompras\PedidoCompras\obj\Debug\PedidoCompras.csprojResolveAssemblyReference.cache
+c:\users\leazlaptop\documents\visual studio 2013\Projects\PedidoCompras\PedidoCompras\obj\Debug\PedidoCompras.Form1.resources
+c:\users\leazlaptop\documents\visual studio 2013\Projects\PedidoCompras\PedidoCompras\obj\Debug\PedidoCompras.Properties.Resources.resources
+c:\users\leazlaptop\documents\visual studio 2013\Projects\PedidoCompras\PedidoCompras\obj\Debug\PedidoCompras.csproj.GenerateResource.Cache
+c:\users\leazlaptop\documents\visual studio 2013\Projects\PedidoCompras\PedidoCompras\obj\Debug\PedidoCompras.exe
+c:\users\leazlaptop\documents\visual studio 2013\Projects\PedidoCompras\PedidoCompras\obj\Debug\PedidoCompras.pdb

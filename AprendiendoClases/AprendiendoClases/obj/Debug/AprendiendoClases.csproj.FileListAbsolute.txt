@@ -1,0 +1,9 @@
+c:\users\leazlaptop\documents\visual studio 2013\Projects\AprendiendoClases\AprendiendoClases\bin\Debug\AprendiendoClases.exe.config
+c:\users\leazlaptop\documents\visual studio 2013\Projects\AprendiendoClases\AprendiendoClases\bin\Debug\AprendiendoClases.exe
+c:\users\leazlaptop\documents\visual studio 2013\Projects\AprendiendoClases\AprendiendoClases\bin\Debug\AprendiendoClases.pdb
+c:\users\leazlaptop\documents\visual studio 2013\Projects\AprendiendoClases\AprendiendoClases\obj\Debug\AprendiendoClases.csprojResolveAssemblyReference.cache
+c:\users\leazlaptop\documents\visual studio 2013\Projects\AprendiendoClases\AprendiendoClases\obj\Debug\AprendiendoClases.Properties.Resources.resources
+c:\users\leazlaptop\documents\visual studio 2013\Projects\AprendiendoClases\AprendiendoClases\obj\Debug\AprendiendoClases.csproj.GenerateResource.Cache
+c:\users\leazlaptop\documents\visual studio 2013\Projects\AprendiendoClases\AprendiendoClases\obj\Debug\AprendiendoClases.exe
+c:\users\leazlaptop\documents\visual studio 2013\Projects\AprendiendoClases\AprendiendoClases\obj\Debug\AprendiendoClases.pdb
+c:\users\leazlaptop\documents\visual studio 2013\Projects\AprendiendoClases\AprendiendoClases\obj\Debug\AprendiendoClases.Form1.resources

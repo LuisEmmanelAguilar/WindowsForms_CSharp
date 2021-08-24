@@ -1,0 +1,9 @@
+c:\users\leazlaptop\documents\visual studio 2013\Projects\DemoArchivosTexto\DemoArchivosTexto\bin\Debug\DemoArchivosTexto.exe.config
+c:\users\leazlaptop\documents\visual studio 2013\Projects\DemoArchivosTexto\DemoArchivosTexto\bin\Debug\DemoArchivosTexto.exe
+c:\users\leazlaptop\documents\visual studio 2013\Projects\DemoArchivosTexto\DemoArchivosTexto\bin\Debug\DemoArchivosTexto.pdb
+c:\users\leazlaptop\documents\visual studio 2013\Projects\DemoArchivosTexto\DemoArchivosTexto\obj\Debug\DemoArchivosTexto.csprojResolveAssemblyReference.cache
+c:\users\leazlaptop\documents\visual studio 2013\Projects\DemoArchivosTexto\DemoArchivosTexto\obj\Debug\DemoArchivosTexto.Form1.resources
+c:\users\leazlaptop\documents\visual studio 2013\Projects\DemoArchivosTexto\DemoArchivosTexto\obj\Debug\DemoArchivosTexto.Properties.Resources.resources
+c:\users\leazlaptop\documents\visual studio 2013\Projects\DemoArchivosTexto\DemoArchivosTexto\obj\Debug\DemoArchivosTexto.csproj.GenerateResource.Cache
+c:\users\leazlaptop\documents\visual studio 2013\Projects\DemoArchivosTexto\DemoArchivosTexto\obj\Debug\DemoArchivosTexto.exe
+c:\users\leazlaptop\documents\visual studio 2013\Projects\DemoArchivosTexto\DemoArchivosTexto\obj\Debug\DemoArchivosTexto.pdb

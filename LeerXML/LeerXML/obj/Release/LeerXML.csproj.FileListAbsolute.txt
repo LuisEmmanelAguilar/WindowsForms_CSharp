@@ -1,0 +1,9 @@
+C:\Users\leaz_\OneDrive\Documentos\Visual Studio 2013\Projects\LeerXML\LeerXML\bin\Release\LeerXML.exe.config
+C:\Users\leaz_\OneDrive\Documentos\Visual Studio 2013\Projects\LeerXML\LeerXML\bin\Release\LeerXML.exe
+C:\Users\leaz_\OneDrive\Documentos\Visual Studio 2013\Projects\LeerXML\LeerXML\bin\Release\LeerXML.pdb
+C:\Users\leaz_\OneDrive\Documentos\Visual Studio 2013\Projects\LeerXML\LeerXML\obj\Release\LeerXML.frmLeerXML.resources
+C:\Users\leaz_\OneDrive\Documentos\Visual Studio 2013\Projects\LeerXML\LeerXML\obj\Release\LeerXML.Properties.Resources.resources
+C:\Users\leaz_\OneDrive\Documentos\Visual Studio 2013\Projects\LeerXML\LeerXML\obj\Release\LeerXML.csproj.GenerateResource.Cache
+C:\Users\leaz_\OneDrive\Documentos\Visual Studio 2013\Projects\LeerXML\LeerXML\obj\Release\LeerXML.exe
+C:\Users\leaz_\OneDrive\Documentos\Visual Studio 2013\Projects\LeerXML\LeerXML\obj\Release\LeerXML.pdb
+C:\Users\leaz_\OneDrive\Documentos\Visual Studio 2013\Projects\LeerXML\LeerXML\obj\Release\LeerXML.csprojResolveAssemblyReference.cache

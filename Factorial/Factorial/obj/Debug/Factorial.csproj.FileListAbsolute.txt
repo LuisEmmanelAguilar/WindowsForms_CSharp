@@ -1,0 +1,9 @@
+c:\users\leazlaptop\documents\visual studio 2013\Projects\Factorial\Factorial\bin\Debug\Factorial.exe.config
+c:\users\leazlaptop\documents\visual studio 2013\Projects\Factorial\Factorial\obj\Debug\Factorial.csprojResolveAssemblyReference.cache
+c:\users\leazlaptop\documents\visual studio 2013\Projects\Factorial\Factorial\obj\Debug\Factorial.Form1.resources
+c:\users\leazlaptop\documents\visual studio 2013\Projects\Factorial\Factorial\obj\Debug\Factorial.Properties.Resources.resources
+c:\users\leazlaptop\documents\visual studio 2013\Projects\Factorial\Factorial\obj\Debug\Factorial.csproj.GenerateResource.Cache
+c:\users\leazlaptop\documents\visual studio 2013\Projects\Factorial\Factorial\bin\Debug\Factorial.exe
+c:\users\leazlaptop\documents\visual studio 2013\Projects\Factorial\Factorial\bin\Debug\Factorial.pdb
+c:\users\leazlaptop\documents\visual studio 2013\Projects\Factorial\Factorial\obj\Debug\Factorial.exe
+c:\users\leazlaptop\documents\visual studio 2013\Projects\Factorial\Factorial\obj\Debug\Factorial.pdb

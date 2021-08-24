@@ -1,0 +1,110 @@
+﻿@model IEnumerable<RgAlumnosMVC.Models.Alumno>
+
+@{
+    ViewBag.Title = "Alumnos";
+}
+
+<h2>Listado de alumnos</h2>
+
+<p>
+    @Html.ActionLink("Nuevo", "Create")
+</p>
+
+<!--Componente para buscar alumnos por su nombre-->
+<div class="row">
+    <div class="col-lg-6" style="width: 100%">
+        <div class="input-group">
+            <input type="text" class="form-control" id="txtNombre" placeholder="Buscar por..." style="float:right" />
+            <span class="input-group-btn">
+                <button class="btn btn-default" type="button" onclick="buscar()">Buscar</button>
+            </span>
+        </div>
+    </div>
+</div>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Apellidos)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Curp)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Genero)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Edad)
+        </th>
+        <th></th>
+    </tr>
+
+
+    <tbody id="bodyAlumnos">
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nombre)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Apellidos)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Curp)
+                </td>
+                <td>
+                    @(item.Genero == "H" ? "Hombre" : "Mujer")
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Edad)
+                </td>
+                <td>
+                    @Html.ActionLink("Editar", "Edit", new { id = item.ID }) |
+                    @Html.ActionLink("Detalles", "Details", new { id = item.ID }) |
+                    @Html.ActionLink("Eliminar", "Delete", new { id = item.ID })
+                </td>
+            </tr>
+        }
+    </tbody>
+
+</table>
+
+
+<script type="text/javascript">
+    function buscar() {
+        var Nombre = $("#txtNombre").val();
+        if (Nombre == "") {
+            Nombre = "-1";
+        }
+        $.ajax({
+            url: "http://localhost:51841/WCF/AlumnoServiceRest.svc/BuscarPorNombre/" + Nombre,
+            type: "POST",
+            datatype: "json",
+            success: function (data) {
+                console.log(data); 
+                var str = "";
+                data.forEach(function (item) {
+                    str += "<tr>"
+                        + "<td>" + item.Nombre + "</td>"
+                        + "<td>" + item.Apellidos + "</td>"
+                        + "<td>" + item.Curp + "</td>"
+                        + "<td>" + (item.Genero == "H" ? "Hombre" : "Mujer") + "</td>"
+                        + "<td>" + item.Edad + "</td>"
+                        + "<td>"
+                        + "<a href='/Alumno/Edit/" + item.ID + "'>Editar</a> | "
+                        + "<a href='/Alumno/Details/" + item.ID + "'>Detalles</a> | "
+                        + "<a href='/Alumno/Delete/" + item.ID + "'>Eliminar</a>"
+                        + "</td>"
+                        + "</tr>";
+                });
+                document.getElementById("bodyAlumnos").innerHTML = str;
+            }
+        });
+    }
+</script>
+
+

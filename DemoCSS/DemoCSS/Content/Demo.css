@@ -1,0 +1,30 @@
+﻿body {
+    color: purple;
+    background-color: #6d93ee;
+    font-family: Georgia, 'Times New Roman', sans-serif;
+}
+
+ul {
+   /* position:absolute;*/
+    top:2em;
+    left: 1em;
+    width:9em;
+    list-style:none;
+}
+
+/* Aqui se afecta lo que esta dentro del UL, es decir el listado, o cada elemento de la lista*/
+ul li{
+    background: white;
+    margin: 0.5em 0;
+    padding: 0.3em;
+    border: 1em solid black;
+}
+
+address {
+    margin-top:1em;
+    padding-top:1em;
+    border-top:thin dotted;
+}
+
+
+

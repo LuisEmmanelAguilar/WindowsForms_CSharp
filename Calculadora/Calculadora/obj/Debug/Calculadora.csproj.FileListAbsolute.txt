@@ -1,0 +1,12 @@
+c:\users\leazlaptop\documents\visual studio 2013\Projects\Calculadora\Calculadora\bin\Debug\Calculadora.exe.config
+c:\users\leazlaptop\documents\visual studio 2013\Projects\Calculadora\Calculadora\obj\Debug\Calculadora.csprojResolveAssemblyReference.cache
+c:\users\leazlaptop\documents\visual studio 2013\Projects\Calculadora\Calculadora\obj\Debug\Calculadora.Form1.resources
+c:\users\leazlaptop\documents\visual studio 2013\Projects\Calculadora\Calculadora\obj\Debug\Calculadora.Properties.Resources.resources
+c:\users\leazlaptop\documents\visual studio 2013\Projects\Calculadora\Calculadora\obj\Debug\Calculadora.csproj.GenerateResource.Cache
+c:\users\leazlaptop\documents\visual studio 2013\Projects\Calculadora\Calculadora\bin\Debug\Calculadora.exe
+c:\users\leazlaptop\documents\visual studio 2013\Projects\Calculadora\Calculadora\bin\Debug\Calculadora.pdb
+c:\users\leazlaptop\documents\visual studio 2013\Projects\Calculadora\Calculadora\obj\Debug\Calculadora.exe
+c:\users\leazlaptop\documents\visual studio 2013\Projects\Calculadora\Calculadora\obj\Debug\Calculadora.pdb
+C:\Users\leaz_\OneDrive\Documentos\Visual Studio 2013\Projects\Calculadora\Calculadora\bin\Debug\Calculadora.exe.config
+C:\Users\leaz_\OneDrive\Documentos\Visual Studio 2013\Projects\Calculadora\Calculadora\obj\Debug\Calculadora.exe
+C:\Users\leaz_\OneDrive\Documentos\Visual Studio 2013\Projects\Calculadora\Calculadora\obj\Debug\Calculadora.pdb

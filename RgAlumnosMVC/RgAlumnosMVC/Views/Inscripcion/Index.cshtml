@@ -1,0 +1,55 @@
+﻿@model IEnumerable<RgAlumnosMVC.Models.Inscripcion>
+
+@{
+    ViewBag.Title = "Imscripciones";
+}
+
+<h2>Listado de inscripciones</h2>
+
+<p>
+    @Html.ActionLink("Nuevo", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            Fecha Inscripción
+        </th>
+        <th>
+            Alumno
+        </th>
+        <th>
+            Curso
+        <th>
+            @Html.DisplayNameFor(model => model.Descuento)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Total)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.FechaInscripcion)
+        </td>
+        <td>
+            @(item.Alumno.Nombre + " " + item.Alumno.Apellidos)
+        </td>
+        <td>
+            @item.Curso.Nombre
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Descuento)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Total)
+        </td>
+        <td>
+            @Html.ActionLink("Details", "Details", new { id=item.ID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ID })
+        </td>
+    </tr>
+}
+
+</table>

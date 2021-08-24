@@ -1,0 +1,9 @@
+c:\users\leazlaptop\documents\visual studio 2013\Projects\Bienvenidos\Bienvenidos\bin\Debug\Bienvenidos.exe.config
+c:\users\leazlaptop\documents\visual studio 2013\Projects\Bienvenidos\Bienvenidos\obj\Debug\Bienvenidos.csprojResolveAssemblyReference.cache
+c:\users\leazlaptop\documents\visual studio 2013\Projects\Bienvenidos\Bienvenidos\obj\Debug\Bienvenidos.Form1.resources
+c:\users\leazlaptop\documents\visual studio 2013\Projects\Bienvenidos\Bienvenidos\obj\Debug\Bienvenidos.Properties.Resources.resources
+c:\users\leazlaptop\documents\visual studio 2013\Projects\Bienvenidos\Bienvenidos\obj\Debug\Bienvenidos.csproj.GenerateResource.Cache
+c:\users\leazlaptop\documents\visual studio 2013\Projects\Bienvenidos\Bienvenidos\bin\Debug\Bienvenidos.exe
+c:\users\leazlaptop\documents\visual studio 2013\Projects\Bienvenidos\Bienvenidos\bin\Debug\Bienvenidos.pdb
+c:\users\leazlaptop\documents\visual studio 2013\Projects\Bienvenidos\Bienvenidos\obj\Debug\Bienvenidos.exe
+c:\users\leazlaptop\documents\visual studio 2013\Projects\Bienvenidos\Bienvenidos\obj\Debug\Bienvenidos.pdb

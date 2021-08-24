@@ -1,0 +1,8 @@
+C:\Users\leaz_\OneDrive\Documentos\Visual Studio 2013\Projects\LeerXML\XMLMDI\bin\Debug\XMLMDI.exe.config
+C:\Users\leaz_\OneDrive\Documentos\Visual Studio 2013\Projects\LeerXML\XMLMDI\bin\Debug\XMLMDI.exe
+C:\Users\leaz_\OneDrive\Documentos\Visual Studio 2013\Projects\LeerXML\XMLMDI\bin\Debug\XMLMDI.pdb
+C:\Users\leaz_\OneDrive\Documentos\Visual Studio 2013\Projects\LeerXML\XMLMDI\obj\Debug\XMLMDI.Form1.resources
+C:\Users\leaz_\OneDrive\Documentos\Visual Studio 2013\Projects\LeerXML\XMLMDI\obj\Debug\XMLMDI.Properties.Resources.resources
+C:\Users\leaz_\OneDrive\Documentos\Visual Studio 2013\Projects\LeerXML\XMLMDI\obj\Debug\XMLMDI.csproj.GenerateResource.Cache
+C:\Users\leaz_\OneDrive\Documentos\Visual Studio 2013\Projects\LeerXML\XMLMDI\obj\Debug\XMLMDI.exe
+C:\Users\leaz_\OneDrive\Documentos\Visual Studio 2013\Projects\LeerXML\XMLMDI\obj\Debug\XMLMDI.pdb

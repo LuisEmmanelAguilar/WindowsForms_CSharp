@@ -1,0 +1,155 @@
+﻿@model RgAlumnosMVC.Models.Inscripcion
+
+@{
+    ViewBag.Title = "Nueva";
+}
+
+@{
+    var cursos = (List<RgAlumnosMVC.Models.Curso>) ViewData["cursos"];
+    List<SelectListItem> listaItems = new List<SelectListItem>();
+    foreach(var curso in cursos) {
+        listaItems.Add(
+            new SelectListItem { Text = curso.Nombre, Value = curso.ID.ToString() }
+        );
+    }
+}
+
+<h2>Nueva</h2>
+<script src="~/Scripts/jquery-1.10.2.js"></script>
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" />
+<script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true)
+        
+        @*
+            CheckBox para seleccionar si se desea buscar el alumno o sera uno nuevo
+        *@
+        <div class="form-group" id="ckBuscarAlumno">
+            <label class="control-label col-md-2">Buscar Alumno</label>
+            <div class="col-md-10">
+                <input type="checkbox" class="form-control" id="buscarAlumno" name="buscarAlumno"/>
+            </div>
+        </div>
+
+        @*
+            Div para el Autocomplete de Estudiantes
+        *@
+        <div class="form-group" id="divBuscarAlumno">
+            <label class="control-label col-md-2">Nombre del Alumno</label>
+            <div class="col-md-10">
+                @Html.HiddenFor(model => model.Alumno.ID)
+                @Html.Editor("alumnos", new { htmlAttributes = new { @id = "alumnos", @name = "alumnos", @class = "form-control", @required = true, @title = "El campo Nombre es obligatorio" } })
+                @Html.ValidationMessage("alumnos", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        @*
+            Div para capturar un nuevo alumno a la inscripcion
+        *@
+        <div class="form-group" id="divNuevoAlumno">
+            <label class="control-label col-md-2">Nuevo Alumno</label>
+            <div class="col-md-10">
+                <label class="editor-label">Nombre</label>
+                @Html.EditorFor(model => model.Alumno.Nombre, new { htmlAttributes = new { @class = "form-control", @required = true, @title = "El campo Nombre es obligatorio" } })
+                @Html.ValidationMessageFor(model => model.Alumno.Nombre, "", new { @class = "text-danger" })
+                <br/>
+                <label class="editor-label">Apellidos</label>
+                @Html.EditorFor(model => model.Alumno.Apellidos, new { htmlAttributes = new { @class = "form-control", @required = true, @title = "El campo Apellidos es obligatorio" } })
+                @Html.ValidationMessageFor(model => model.Alumno.Apellidos, "", new { @class = "text-danger" })
+                <br/>
+                <label class="editor-label">Curp</label>
+                @Html.EditorFor(model => model.Alumno.Curp, new { htmlAttributes = new { @class = "form-control", @required = true, @title = "El campo Curp es obligatorio" } })
+                @Html.ValidationMessageFor(model => model.Alumno.Curp, "", new { @class = "text-danger" })
+                <br />
+                <label class="editor-label">Genero</label>
+                <br />
+                @Html.RadioButtonFor(model => model.Alumno.Genero, "H", new { @id = "hombre", @checked = true })
+                @Html.Label("hombre", "Hombre")
+                @Html.RadioButtonFor(model => model.Alumno.Genero, "M", new { @id = "mujer" })
+                @Html.Label("mujer", "Mujer")
+                @Html.ValidationMessageFor(model => model.Alumno.Genero, "", new { @class = "text-danger" })
+                <br />
+                <label class="editor-label">Edad</label>
+                @Html.EditorFor(model => model.Alumno.Genero, new { htmlAttributes = new { @class = "form-control", @required = true, @title = "El campo Edad es obligatorio", @type = "number" } })
+                @Html.ValidationMessageFor(model => model.Alumno.Genero, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-md-2">Curso</label>
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.Curso.ID, listaItems, new { @class = "form-control" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Descuento, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Descuento, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Descuento, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Guardar" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Cancelar", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+<script type="text/javascript">
+    jQuery(document).ready(function ($) {
+        $("#alumnos").autocomplete({
+            minLength: 2,
+            source: function (request, response) {
+                $.ajax({
+                    url: "@Url.Action("AutoComplete", "Alumno")",
+                    type: "GET",
+                    dataType: "json",
+                    data: {
+                        nombreEstudiante: $("#alumnos").val()
+                    },
+                    success: function (data) {
+                        response($.map(data, function (item) {
+                            return {
+                                label: item.Nombre + " " + item.Apellidos,
+                                value: item.Nombre + " " + item.Apellidos,
+                                id: item.ID
+                            }
+                        }));
+                    }
+                });
+            },
+            select: function (a, b) {
+                $("#Alumno_ID").val(b.item.id);
+            }
+        });
+    });
+
+    $("#divBuscarAlumno").hide();
+    $("#buscarAlumno").change(function () {
+        if(this.checked) {
+            $("#divBuscarAlumno").show(500);
+            $("#divNuevoAlumno").hide(500);
+        } else {
+            $("#divBuscarAlumno").hide(500);
+            $("#divNuevoAlumno").show(500);
+        }
+    });
+</script>

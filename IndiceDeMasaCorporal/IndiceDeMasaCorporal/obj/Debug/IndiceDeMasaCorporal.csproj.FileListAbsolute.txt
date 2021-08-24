@@ -1,0 +1,12 @@
+c:\users\leazlaptop\documents\visual studio 2013\Projects\IndiceDeMasaCorporal\IndiceDeMasaCorporal\bin\Debug\IndiceDeMasaCorporal.exe.config
+c:\users\leazlaptop\documents\visual studio 2013\Projects\IndiceDeMasaCorporal\IndiceDeMasaCorporal\bin\Debug\IndiceDeMasaCorporal.exe
+c:\users\leazlaptop\documents\visual studio 2013\Projects\IndiceDeMasaCorporal\IndiceDeMasaCorporal\bin\Debug\IndiceDeMasaCorporal.pdb
+c:\users\leazlaptop\documents\visual studio 2013\Projects\IndiceDeMasaCorporal\IndiceDeMasaCorporal\obj\Debug\IndiceDeMasaCorporal.csprojResolveAssemblyReference.cache
+c:\users\leazlaptop\documents\visual studio 2013\Projects\IndiceDeMasaCorporal\IndiceDeMasaCorporal\obj\Debug\IndiceDeMasaCorporal.Properties.Resources.resources
+c:\users\leazlaptop\documents\visual studio 2013\Projects\IndiceDeMasaCorporal\IndiceDeMasaCorporal\obj\Debug\IndiceDeMasaCorporal.csproj.GenerateResource.Cache
+c:\users\leazlaptop\documents\visual studio 2013\Projects\IndiceDeMasaCorporal\IndiceDeMasaCorporal\obj\Debug\IndiceDeMasaCorporal.exe
+c:\users\leazlaptop\documents\visual studio 2013\Projects\IndiceDeMasaCorporal\IndiceDeMasaCorporal\obj\Debug\IndiceDeMasaCorporal.pdb
+c:\users\leazlaptop\documents\visual studio 2013\Projects\IndiceDeMasaCorporal\IndiceDeMasaCorporal\obj\Debug\IndiceDeMasaCorporal.Form1.resources
+C:\Users\leaz_\OneDrive\Documentos\Visual Studio 2013\Projects\IndiceDeMasaCorporal\IndiceDeMasaCorporal\bin\Debug\IndiceDeMasaCorporal.exe.config
+C:\Users\leaz_\OneDrive\Documentos\Visual Studio 2013\Projects\IndiceDeMasaCorporal\IndiceDeMasaCorporal\obj\Debug\IndiceDeMasaCorporal.exe
+C:\Users\leaz_\OneDrive\Documentos\Visual Studio 2013\Projects\IndiceDeMasaCorporal\IndiceDeMasaCorporal\obj\Debug\IndiceDeMasaCorporal.pdb

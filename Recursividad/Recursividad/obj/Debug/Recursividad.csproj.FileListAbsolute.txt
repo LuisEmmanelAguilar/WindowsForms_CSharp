@@ -1,0 +1,9 @@
+c:\users\leazlaptop\documents\visual studio 2013\Projects\Recursividad\Recursividad\bin\Debug\Recursividad.exe.config
+c:\users\leazlaptop\documents\visual studio 2013\Projects\Recursividad\Recursividad\obj\Debug\Recursividad.csprojResolveAssemblyReference.cache
+c:\users\leazlaptop\documents\visual studio 2013\Projects\Recursividad\Recursividad\obj\Debug\Recursividad.Form1.resources
+c:\users\leazlaptop\documents\visual studio 2013\Projects\Recursividad\Recursividad\obj\Debug\Recursividad.Properties.Resources.resources
+c:\users\leazlaptop\documents\visual studio 2013\Projects\Recursividad\Recursividad\obj\Debug\Recursividad.csproj.GenerateResource.Cache
+c:\users\leazlaptop\documents\visual studio 2013\Projects\Recursividad\Recursividad\bin\Debug\Recursividad.exe
+c:\users\leazlaptop\documents\visual studio 2013\Projects\Recursividad\Recursividad\bin\Debug\Recursividad.pdb
+c:\users\leazlaptop\documents\visual studio 2013\Projects\Recursividad\Recursividad\obj\Debug\Recursividad.exe
+c:\users\leazlaptop\documents\visual studio 2013\Projects\Recursividad\Recursividad\obj\Debug\Recursividad.pdb

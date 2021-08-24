@@ -1,0 +1,12 @@
+c:\users\leazlaptop\documents\visual studio 2013\Projects\EcuacionSegundoGrado\EcuacionSegundoGrado\bin\Debug\EcuacionSegundoGrado.exe.config
+c:\users\leazlaptop\documents\visual studio 2013\Projects\EcuacionSegundoGrado\EcuacionSegundoGrado\bin\Debug\EcuacionSegundoGrado.exe
+c:\users\leazlaptop\documents\visual studio 2013\Projects\EcuacionSegundoGrado\EcuacionSegundoGrado\bin\Debug\EcuacionSegundoGrado.pdb
+c:\users\leazlaptop\documents\visual studio 2013\Projects\EcuacionSegundoGrado\EcuacionSegundoGrado\obj\Debug\EcuacionSegundoGrado.csprojResolveAssemblyReference.cache
+c:\users\leazlaptop\documents\visual studio 2013\Projects\EcuacionSegundoGrado\EcuacionSegundoGrado\obj\Debug\EcuacionSegundoGrado.Form1.resources
+c:\users\leazlaptop\documents\visual studio 2013\Projects\EcuacionSegundoGrado\EcuacionSegundoGrado\obj\Debug\EcuacionSegundoGrado.Properties.Resources.resources
+c:\users\leazlaptop\documents\visual studio 2013\Projects\EcuacionSegundoGrado\EcuacionSegundoGrado\obj\Debug\EcuacionSegundoGrado.csproj.GenerateResource.Cache
+c:\users\leazlaptop\documents\visual studio 2013\Projects\EcuacionSegundoGrado\EcuacionSegundoGrado\obj\Debug\EcuacionSegundoGrado.exe
+c:\users\leazlaptop\documents\visual studio 2013\Projects\EcuacionSegundoGrado\EcuacionSegundoGrado\obj\Debug\EcuacionSegundoGrado.pdb
+C:\Users\leaz_\OneDrive\Documentos\Visual Studio 2013\Projects\EcuacionSegundoGrado\EcuacionSegundoGrado\bin\Debug\EcuacionSegundoGrado.exe.config
+C:\Users\leaz_\OneDrive\Documentos\Visual Studio 2013\Projects\EcuacionSegundoGrado\EcuacionSegundoGrado\obj\Debug\EcuacionSegundoGrado.exe
+C:\Users\leaz_\OneDrive\Documentos\Visual Studio 2013\Projects\EcuacionSegundoGrado\EcuacionSegundoGrado\obj\Debug\EcuacionSegundoGrado.pdb
